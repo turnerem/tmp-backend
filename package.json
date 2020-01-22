@@ -1,0 +1,19 @@
+{
+  "name": "tmp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "setup-dbs": "psql -f db/setup.sql",
+    "migrate-make": "knex migrate:make"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "knex": "^0.20.8",
+    "pg": "^7.17.1",
+    "psql": "0.0.1"
+  }
+}
