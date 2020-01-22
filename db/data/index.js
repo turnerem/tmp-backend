@@ -4,7 +4,7 @@ const testData = require('./test-data');
 
 const data = {
   test: testData, 
-  development: null
+  development: testData
 }
 
 

@@ -1,7 +1,7 @@
 const users = require('./users')
 
 const data = {
-  userData: users
+  usersData: users
 }
 
 module.exports = data;
